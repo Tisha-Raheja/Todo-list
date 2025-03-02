@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin: 100px 40px 40px 40px;
+    background-color: #e0f7fa; 
+}
+.list {
+     font-size: 44px;
+     font-weight: 600;
+    
+}
+#todo {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffffff; 
+}
+#Text {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 28px;
+}
+
+#button {
+    padding: 10px;
+    margin:10px;
+    border-radius: 10px;
+    background-color: #a2d9ff; }
+.container {
+    margin-top: 50px;
+}
+.task {
+    justify-content: space-between;
+    
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border:4px solid #e0f7fa ;
+} 
+p {
+    background-color: #f3f7fc;}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+border-color: #333;}
+.remove  {
+    background-color:#ff00002f;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.edit{
+    background-color:#ffff002f;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.remove .edit:hover {
+    color: #e0e0e0;
+}
+.complete {
+    background-color:#ffff006c;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.completed{
+            text-decoration: line-through;
+            color: #b2b2b2;
+}
